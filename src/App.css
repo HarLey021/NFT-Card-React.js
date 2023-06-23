@@ -1,0 +1,93 @@
+@media (min-width: 1080px) {
+  .card-container {
+    width: 350px !important;
+    height: 596px !important;
+  }
+
+  .equilibrium {
+    width: 302px !important;
+    height: 302px !important;
+  }
+
+  .image-container {
+    position: relative !important;
+  }
+
+  .image-container:hover .overlay {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+  }
+
+  .overlay {
+    background-color: rgba(0, 255, 248, 0.5) !important;
+    width: 302px !important;
+    height: 302px !important;
+    position: absolute !important;
+    top: 24px !important;
+    left: 24px !important;
+    display: none !important;
+    border-radius: 8px !important;
+  }
+
+  .eye {
+    display: block !important;
+  }
+
+  .text-container {
+    width: 302px !important;
+    height: 140px !important;
+  }
+
+  h1 {
+    margin-bottom: 16px !important;
+  }
+
+  h1:hover {
+    color: #00fff8 !important;
+    cursor: pointer;
+  }
+
+  .main-p {
+    margin-bottom: 24px !important;
+  }
+
+  .etherum-container {
+    margin-bottom: 24px !important;
+  }
+
+  .price-container {
+    width: 93.5px !important;
+    height: 20px !important;
+  }
+
+  .price-p {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+
+  .deadline-container {
+    width: 97px !important;
+    height: 20px !important;
+  }
+
+  .deadline-p {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+
+  .creator-container {
+    width: 230px !important;
+  }
+
+  .creator-text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+
+  span:hover {
+    color: #00fff8 !important;
+    cursor: pointer;
+  }
+}
